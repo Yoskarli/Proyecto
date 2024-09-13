@@ -15,7 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 //Route::get('/', funtion ()){
 // return view('welcome');
-//});
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::view('/', 'welcome');
 Route::resource('productos', App\Http\Controllers\ProductoController::class);
