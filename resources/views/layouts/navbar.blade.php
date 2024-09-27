@@ -54,5 +54,10 @@
           <li><a>Logout</a></li>
         </ul>
       </div>
+        <!-- Aquí agregamos los botones de Inicio y Registrarte -->
+     <div class="navbar-end">
+      <a class="btn btn-primary" href="/">Inicio</a>
+      <a class="btn btn-secondary ml-2" href="/register">Registrarte</a>
+    </div>
     </div>
   </div>
