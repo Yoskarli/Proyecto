@@ -3,6 +3,12 @@
       <a class="btn btn-ghost text-xl">Carnes la union </a>
     </div>
     <div class="flex-none">
+      <div class="flex-none">
+        <a href="/" class="btn btn-ghost text-lg">Inicio</a>
+        
+     
+    <a href="/register" class="btn btn-ghost text-lg">Regístrate</a>
+    </div>
       <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
           <div class="indicator">
@@ -53,11 +59,5 @@
           <li><a>Settings</a></li>
           <li><a>Logout</a></li>
         </ul>
-      </div>
-        <!-- Aquí agregamos los botones de Inicio y Registrarte -->
-     <div class="navbar-end">
-      <a class="btn btn-primary" href="/">Inicio</a>
-      <a class="btn btn-secondary ml-2" href="/register">Registrarte</a>
-    </div>
-    </div>
+     </div>
   </div>
